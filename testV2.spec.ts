@@ -6,9 +6,9 @@ test.use({ acceptDownloads: true });
 /* ============================================= EDITABLE VALUES ============================================= */
 const BASE_URL = 'https://staging.faybl.com';
 const SIGNIN_URL = `${BASE_URL}/signin`;
-const INPUT_DIR = path.resolve('C:/Users/XXXX/testdata/input_files'); // folder for files to upload
-const OUTPUT_DIR = path.resolve('C:/Users/XXXX/testdata/output_files'); // folder for downloaded files
-const jsonPath = path.resolve('C:/Users/XXXX/testdata/input_files/input.json');  // path to JSON file with login and client data
+const INPUT_DIR = path.resolve('X:/XXXX/testdata/input_files'); // folder for files to upload
+const OUTPUT_DIR = path.resolve('X:/XXXX/testdata/output_files'); // folder for downloaded files
+const jsonPath = path.resolve('X:/XXXX/testdata/input_files/input.json');  // path to JSON file with login and client data
 const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
 const { email, password, protectedCode, clients, clientid } = data;
 /* =========================================================================================================== */
