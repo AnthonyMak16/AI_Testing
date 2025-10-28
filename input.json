@@ -1,0 +1,13 @@
+{
+  "email": "xxxxxxxxxx",
+  "password": "xxxxxxxxxx",
+  "protectedCode": "xxxxxx",
+  "clients": [
+    "xxxx xxxx",
+    "xxxx xxxx"
+  ],
+  "clientid": [
+    "xxxxxx",
+    "xxxxxx"
+  ]
+}
