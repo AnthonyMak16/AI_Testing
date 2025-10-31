@@ -7,9 +7,9 @@ from playwright.sync_api import Playwright, TimeoutError, expect
 # =============================== EDITABLE VALUES =============================== #
 BASE_URL = "https://staging.faybl.com"
 SIGNIN_URL = f"{BASE_URL}/signin"
-INPUT_DIR = Path(r"C:\Users\Tony\project\input_files")      # folder for files to upload
-OUTPUT_DIR = Path(r"C:\Users\Tony\project\output_files")    # folder for downloaded files
-JSON_PATH = Path(r"C:\Users\Tony\project\input_files\input.json")  # login + client data json
+INPUT_DIR = Path(r"X:\XXXX\input_files")      # folder for files to upload
+OUTPUT_DIR = Path(r"X:\XXXX\output_files")    # folder for downloaded files
+JSON_PATH = Path(r"X:\XXXX\input_files\input.json")  # login + client data json
 with JSON_PATH.open("r", encoding="utf-8") as f:
     data = json.load(f)
 EMAIL = data["email"]
@@ -178,3 +178,4 @@ def test_fact_find_and_kyc(playwright: Playwright, client_index: int) -> None:
     finally:
         context.close()
         browser.close()
+
