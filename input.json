@@ -1,0 +1,14 @@
+{
+  "email": "xxxxxxxxxx",
+  "password": "xxxxxxxxxx",
+  "protectedCode": "xxxxxx",
+  "clients": [
+    "xxxx xxxx",
+    "xxxx xxxx"
+  ],
+  "clientid": [
+    "xxxxxx",
+    "xxxxxx"
+  ],
+  "gemini_api_key": "xxxxxxxxxx"
+}
